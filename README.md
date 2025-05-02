@@ -3,7 +3,7 @@
 
 <p align="center">A habit tracking web application built using <strong>Next.js, TypeScript, Tailwind CSS, and Vercel</strong>. This app helps users visually manage their daily habits like water intake, sleep, and screen time.
   <br />
-  <a href="https://victor-jatinmehta.vercel.app/"><strong>🔗 Live Demo</strong></a> |
+  <a href="https://tracker-six-gilt.vercel.app"><strong>🔗 Live Demo</strong></a> |
   <a href="https://github.com/JatinMehta007/tracker"><strong>🧠 Source Code</strong></a>
 </p>
 
