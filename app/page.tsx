@@ -68,22 +68,22 @@ export default function HabitTrackerApp() {
       </WobbleCard>
 
       {/* Main Section */}
-      <main className="px-6 py-8 mt-32">
+      <main className="px-6 py-8 mt-36">
         <div className="flex justify-center items-center">
-        <p className="text-8xl ">Welcome to </p>
-        <img src="./images/logo1.png" alt="" className="h-[85px] mt-1 ml-1" />
+        <p className="text-8xl font-extrabold uppercase">Welcome to </p>
+        <img src="./images/logo1.png" alt="" className="h-[100px] mt-1 ml-1" />
         </div>
       
         
           <div className="">
-            <div className="grid grid-flow-col   w-[1100px] h-[500px] ml-32 rounded-3xl  ">
+            <div className=" grid grid-flow-col shadow-2xl mt-10  w-[1100px] h-[500px] ml-32 rounded-3xl  ">
               <div className="grid-cols-1 w-[65%] p-10">
               <motion.h2
           className="text-xl font-semibold mb-2"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
         >
-                <p className="text-6xl text-left font-extrabold tracking-wider pt-5 ml-20  ">
+                <p className="text-7xl text-left font-extrabold tracking-wider pt-5 ml-20  ">
                 Daily Habit Check-In
                   <span className="text-2xl block font-normal mt-6">
                   Use this dashboard to track your daily habits and stay on top of your personal wellness goals.
@@ -93,13 +93,13 @@ export default function HabitTrackerApp() {
                 </motion.h2>
               </div>
               <div className="grid-cols-2 absolute h-[400px] w-[500px]  ml-[720px] mt-28  ">
-                {/* <img src={image} alt="" className="rounded-3xl" /> */}
+                <img src="./images/image.png" alt="" className="rounded-4xl " />
               </div>
             </div>
           </div>
 
         {/* Day Selector */}
-        <div className="flex gap-2 overflow-x-auto pb-4 mb-6">
+        <div className="flex gap-2 overflow-x-auto pb-4 mb-6 mt-10">
           {days.map((day) => (
             <button
               key={day}
