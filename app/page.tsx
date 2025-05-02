@@ -81,7 +81,7 @@ export default function HabitTrackerApp() {
             <div className="flex justify-between items-center text-white px-5 mt-2 font-semibold">
               <img src="./images/logo.png" alt="" className="h-5 lg:h-8 mt-[5px]" />
               <div className="flex items-center gap-4 pt-1">
-                <span className="text-base text-black hidden">Hi, Jatin 👋🏻</span>
+                <span className="text-base text-black invisible md:visible ">Hi, Jatin 👋🏻</span>
                 <img
                   src="https://randomuser.me/api/portraits/men/75.jpg"
                   alt="avatar"
@@ -115,7 +115,7 @@ export default function HabitTrackerApp() {
               >
                 <p className="text-4xl xl:text-7xl sm:text-left font-extrabold tracking-wider text-black pt-5 xl:ml-20 text-center md:text-5xl p-7 xl:p-0">
                   Daily Habit Check-In
-                  <span className="text-2xl md:text-xl xl:text-2xl block font-normal mt-6 text-black">
+                  <span className="text-2xl  md:text-xl xl:text-2xl block font-normal mt-6 text-black">
                     Use this dashboard to track your daily habits and stay on top of your personal wellness goals.
                     Log your water intake, sleep hours, and screen time for each day of the week.
                   </span>
