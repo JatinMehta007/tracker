@@ -12,6 +12,8 @@ import {
 } from "recharts";
 import { motion } from "framer-motion";
 import { WobbleCard } from "@/components/wobble_card";
+import { HoverBorderGradient } from "@/components/gradient";
+import { div } from "motion/react-client";
 
 const getPast7Days = () => {
   const days = [];
@@ -64,19 +66,21 @@ export default function HabitTrackerApp() {
   }));
 
   return (
-      <WobbleCard>
-    <div className="min-h-screen min-w-screen  text-gray-800 overflow-hidden relative">
+    <div className="min-h-screen  text-gray-800 overflow-hidden relative ">
+      <WobbleCard >
         <div className="flex justify-center ">
-          <div className="w-full max-w-[1300px] mx-auto bg-yellow-400 mt-5 h-16 fixed top-0 z-50">
+          <div className="w-full max-w-[1300px] mx-auto bg-yellow-400 rounded-sm mt-5 h-16 fixed top-0 z-50">
             <div className="flex justify-between items-center text-white px-5 mt-2 font-semibold">
               <img src="./images/logo.png" alt="" className="h-8 mt-[5px]" />
               <div className="flex items-center gap-4 pt-1">
-                <span className="text-base text-gray-700">Hi, Jatin 👋</span>
+                <span className="text-base text-black">Hi, Jatin 👋🏻</span>
+               
                 <img
                   src="https://randomuser.me/api/portraits/men/75.jpg"
                   alt="avatar"
-                  className="w-10 h-10 rounded-full border"
+                  className="w-10 h-10 rounded-full border border-black"
                 />
+                
               </div>
             </div>
           </div>
@@ -109,7 +113,7 @@ export default function HabitTrackerApp() {
           </div>
         </div>
 
-        <p className="text-5xl font-black text-gray-700 mb-2 mt-10 text-center">
+        <p className="text-5xl font-black text-black mb-2 mt-10 text-center">
           Select a date to view or update your habits:
         </p>
         <div className="w-96 h-[7px] mt-7 bg-amber-600 rounded-4xl  mx-auto"></div>
@@ -197,10 +201,11 @@ export default function HabitTrackerApp() {
         </div>
       </main>
 
-      <footer className="text-center py-6 text-sm text-gray-500">
+      <footer className="text-center py-6 text-sm text-black">
         © 2025 TrackIt · Built by Jatin
       </footer>
-    </div>
           </WobbleCard>
+    </div>
+          
   );
 }
