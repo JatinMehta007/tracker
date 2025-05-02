@@ -15,7 +15,7 @@ export const WobbleCard = ({
   return (
    
       <div
-        className=" bg  [background-image:radial-gradient(88%_100%_at_top,rgba(255,255,255,0.5),rgba(255,255,255,0))]  "
+        className="bg-yellow-300 [background-image:radial-gradient(88%_100%_at_top,rgba(255,255,255,0.5),rgba(255,255,255,0))]  "
       >
         <motion.div
           className={cn("", className)}
