@@ -21,11 +21,11 @@
 ---
 ## 🚀 Features
 
-- 📅 Select specific dates to view or edit habit data
-- 🧪 Track habits such as water intake, sleep, and screen usage
-- 💾 Data persistence using in-memory — easily extendable to a backend
-- ⚡ Fast and responsive UI with Tailwind CSS
-- 🌐 Deployed on Vercel
+- 📅 Select specific dates to view or edit habit data.
+- 🧪 Track habits such as water intake, sleep, and screen usage.
+- 💾 Data persistence using in-memory — easily extendable to a backend.
+- ⚡ Fast and responsive UI with Tailwind CSS.
+- 🌐 Deployed on Vercel.
 
 ---
 
